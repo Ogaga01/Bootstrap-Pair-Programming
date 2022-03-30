@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+.hero{
+  border: 5px solid red;
+  /* height: 600px; */
+  background-image: url(./images/main_bg.png);
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.main{
+  margin-left: 100px;
+}
