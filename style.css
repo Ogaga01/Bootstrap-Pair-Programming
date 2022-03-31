@@ -4,7 +4,7 @@
   --medium-dark-blue: #253858;
   --light-blue: #344563;
   --lighter-blue: #6b778c;
-  --media-color:#505f79;
+  --media-color: #505f79;
   --focus-color: #2230d2;
   --lightest-blue: #7f8cff;
   --menu-blue: #495bff;
@@ -18,66 +18,88 @@
   --white-color: #fff;
 }
 
-*,body{
+*,
+body {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   background-color: var(--lighter-gray) !important;
 }
 
-h1,h2{
-    color: var(--dark-blue);
+h1,
+h2 {
+  color: var(--dark-blue);
 }
-h3,h5{
-    color: var(--light-blue);
-}
-p{
+
+h3,
+h5 {
   color: var(--light-blue);
 }
 
-.nav-link,.dark-blue-text {
+p {
+  color: var(--light-blue);
+}
+
+.nav-link,
+.dark-blue-text {
   color: var(--light-blue) !important;
 }
-.hero-container{
+
+.hero-container {
   background-image: url('./images/main_bg.png');
-  background-size:95% 100%;
+  background-size: 95% 100%;
   background-repeat: no-repeat;
   background-position: top center;
-  padding: 9rem 0 ;
+  padding: 9rem 0;
   border-bottom-left-radius: 5rem;
 }
-.social-media-title{
+
+.social-media-title {
   color: var(--menu-blue);
 }
-.social-media-icon a i{
+
+.social-media-icon a i {
   font-size: 23px;
   color: var(--media-color);
 }
 
-.rounded-card{
+.rounded-card {
   border-radius: 24px;
 }
-.work-bullet{
+
+.work-bullet {
   width: 8px;
   height: 8px;
-  background-color:var(--light-gray);
+  background-color: var(--light-gray);
 }
-.light-gray-text{
+
+.light-gray-text {
   color: var(--lighter-blue);
 }
-.work-technologies{
+
+.work-technologies {
   color: var(--menu-blue);
   background-color: var(--lighter-gray);
 }
-.project-button{
-  color: var(--menu-blue)!important;
+
+.project-button {
+  color: var(--menu-blue) !important;
   border: 1px var(--menu-blue) solid !important;
 }
-.about-languages{
+
+.about-languages {
   background-color: var(--skill-card-color);
 }
-.about-section{
+
+.about-section {
   padding: 6rem 0;
   border-top-right-radius: 5rem;
+}
+
+#contact-section {
+  background-image: url('./images/contact-form-background-shapes.svg');
+  background-repeat: no-repeat;
+  padding: 9rem 0;
 }
