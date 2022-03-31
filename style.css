@@ -22,15 +22,21 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: var(--lighter-gray) !important;
+}
 
-h1{
+h1,h2{
     color: var(--dark-blue);
+}
+h3,h5{
+    color: var(--light-blue);
 }
 p{
   color: var(--light-blue);
 }
 
-.nav-link {
+.nav-link,.dark-blue-text {
   color: var(--light-blue) !important;
 }
 .hero-container{
@@ -38,7 +44,8 @@ p{
   background-size:95% 100%;
   background-repeat: no-repeat;
   background-position: top center;
-  padding: 9rem 0;
+  padding: 9rem 0 ;
+  border-bottom-left-radius: 5rem;
 }
 .social-media-title{
   color: var(--menu-blue);
@@ -46,4 +53,31 @@ p{
 .social-media-icon a i{
   font-size: 23px;
   color: var(--media-color);
+}
+
+.rounded-card{
+  border-radius: 24px;
+}
+.work-bullet{
+  width: 8px;
+  height: 8px;
+  background-color:var(--light-gray);
+}
+.light-gray-text{
+  color: var(--lighter-blue);
+}
+.work-technologies{
+  color: var(--menu-blue);
+  background-color: var(--lighter-gray);
+}
+.project-button{
+  color: var(--menu-blue)!important;
+  border: 1px var(--menu-blue) solid !important;
+}
+.about-languages{
+  background-color: var(--skill-card-color);
+}
+.about-section{
+  padding: 6rem 0;
+  border-top-right-radius: 5rem;
 }
